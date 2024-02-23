@@ -4,7 +4,7 @@ const rimraf = require('rimraf')
 const QRCode = require('qrcode');
 const basePath = path.resolve(__dirname, '../dist');
 
-const urlBase = `https://raw.gitmirror.com/htyf-mp-community/MusicFreePlugins/demo/dist/plugins.json`
+const urlBase = `https://raw.gitmirror.com/htyf-mp-community/MusicFreePlugins/demo/plugins.json`
 
 async function run() {
     console.log('生成json文件...');
