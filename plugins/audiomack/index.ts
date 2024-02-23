@@ -562,7 +562,7 @@ module.exports = {
   author: '猫头猫',
   primaryKey: ["id", "url_slug"],
   srcUrl:
-    "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/audiomack/index.js",
+    "https://raw.gitmirror.com/htyf-mp-community/MusicFreePlugins/demo/dist/audiomack/index.js",
   cacheControl: "no-cache",
   async search(query, page, type) {
     if (type === "music") {

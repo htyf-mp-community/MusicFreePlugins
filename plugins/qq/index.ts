@@ -583,7 +583,7 @@ module.exports = {
   author: '猫头猫',
   version: "0.2.2",
   srcUrl:
-    "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/qq/index.js",
+    "https://raw.gitmirror.com/htyf-mp-community/MusicFreePlugins/demo/dist/qq/index.js",
   cacheControl: "no-cache",
   hints: {
     importMusicSheet: [

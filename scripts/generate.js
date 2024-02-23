@@ -1,8 +1,10 @@
 const fs = require('fs/promises');
 const path = require('path');
 const rimraf = require('rimraf')
-
+const QRCode = require('qrcode');
 const basePath = path.resolve(__dirname, '../dist');
+
+const urlBase = `https://raw.gitmirror.com/htyf-mp-community/MusicFreePlugins/demo/dist/plugins.json`
 
 async function run() {
     console.log('生成json文件...');
@@ -38,6 +40,19 @@ async function run() {
     await fs.writeFile(path.resolve(pluginPath, 'plugins.json'), JSON.stringify(output));
     await fs.copyFile(path.resolve(pluginPath, 'plugins.json'), path.resolve(__dirname, '../plugins.json'))
     console.log('done√');
+    const url = urlBase
+
+    QRCode.toFile(path.join(__dirname, '../qrcode.png'), url, {
+        margin: 1,
+        width: 256,
+        color: {
+            dark: '#000000FF',
+            light: '#FFFFFFFF'
+        }
+    }, function (err) {
+        if (err) throw err;
+        console.log('QR code saved!');
+    });
 
 }
 

@@ -399,7 +399,7 @@ module.exports = {
   author: '猫头猫',
   appVersion: ">0.1.0-alpha.0",
   srcUrl:
-    "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/kugou/index.js",
+    "https://raw.gitmirror.com/htyf-mp-community/MusicFreePlugins/demo/dist/kugou/index.js",
   cacheControl: "no-cache",
   primaryKey: ["id", "album_id", "album_audio_id"],
   hints: {

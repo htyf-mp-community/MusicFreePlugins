@@ -215,7 +215,7 @@ module.exports = {
   version: "0.0.1",
   supportedSearchType: ["music"],
   srcUrl:
-    "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/youtube/index.js",
+    "https://raw.gitmirror.com/htyf-mp-community/MusicFreePlugins/demo/dist/youtube/index.js",
   cacheControl: "no-cache",
   search,
   getMediaSource,

@@ -522,7 +522,7 @@ module.exports = {
   defaultSearchType: "album",
   cacheControl: "no-cache",
   srcUrl:
-    "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/bilibili/index.js",
+    "https://raw.gitmirror.com/htyf-mp-community/MusicFreePlugins/demo/dist/bilibili/index.js",
   primaryKey: ["id", "aid", "bvid", "cid"],
   hints: {
     importMusicSheet: [
